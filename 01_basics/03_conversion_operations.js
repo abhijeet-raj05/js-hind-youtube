@@ -28,5 +28,24 @@ let num = 45
 
 let str = String(num)
 
-console.log(str);
-console.log(typeof str);
+// console.log(str);
+// console.log(typeof str);
+
+let str1 = "Hello"
+let str2 = " Abhijeet"
+// console.log(str1 + str2);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+console.log(+true);
+console.log(+"");
+
+let x = 7
+
+// x++
+//++x
+console.log(x);
+
