@@ -53,3 +53,27 @@ const myFunction = function(){
 
 console.log(typeof myFunction);
 
+//+++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory[Primitive datatypes] and Heap Memory[Non Primitive datatypes]
+
+//Stack example: 
+
+let myName = "abhijeet raj"
+let copyname = myName
+
+// copyname = "golu raj"
+
+console.log(myName);
+console.log(copyname);
+
+let userOne = {
+       name: "Dayal",
+       role: "bowler"
+}
+
+let userTwo = userOne
+
+console.log(userOne);
+console.log(userTwo);
+
